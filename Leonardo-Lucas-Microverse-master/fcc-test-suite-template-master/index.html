@@ -1,14 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" media="(max-width: 800px)" href="css/style.css" />
     <p>We are software developers !</p>
     <style>
         section { height: 100vh; }
+        @media(max-width: 600px) {
+          .facet-sidebar{
+            display:none
+          }
+        }
+        
+    
     </style>
+    
   </head>
 
   <body>
@@ -38,3 +45,4 @@
     <script src="js/index.js"></script>
   </body>
 </html>
+
