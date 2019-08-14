@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <p>We are software developers !</p>
+    <style>
+        section { height: 100vh; }
+    </style>
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
+    <nav id="navbar" class="nav">
+      <ul>
+        <li>
+          <a href="#welcome-section">Link to welcome section</a>
+        </li>
+      </ul>
+    </nav>
     <div>“Hello World!”</div>
 
-  <div id ="welcome-section">
-    <h1>Welcome to my portfolio !</h1>
-  </div>
-  <div id="projects">
-    <a href="#projects">Link to projects.</a>
-    <h1 id="project-title"></h1>
-  </div>
-    <script  src="js/index.js"></script>
-    <nav id="navbar">
+    <section id="welcome-section" class="welcome-section">
+      Welcome section
+      <h1>Welcome to my portfolio !</h1>
+    </section>
 
-    </nav>
+    <div id="projects">
+      <a href="#projects">Link to projects.</a>
+      <h1 class="project-tile"></h1>
+    </div>
+
+    <a id="profile-link" href="https://github.com/cerfectus" target="_blank"
+      >github profile</a
+    >
+
+    <script src="js/index.js"></script>
   </body>
 </html>
